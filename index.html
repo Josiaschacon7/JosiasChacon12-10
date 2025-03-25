@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Josías</title>
+    <style>
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #939696;
+        box-sizing: border-box;
+    }
+    .header {
+        background-color: rgba(93, 94, 95, 0.615);
+        padding: 20px;
+        border-style: dashed; 
+        border-color: rgb(43, 42, 42);
+        text-align: center;
+    }
+    .footer {
+        background-color: rgba(63, 63, 62, 0.615);
+        padding: 20px;
+        border-style: dashed; 
+        border-color: rgb(61, 60, 59);
+        text-align: center;
+    }
+    .header h1{
+        color: #000000;
+        text-align: center;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+    .content {
+        display: flex;
+    }
+    .sidebar {
+        width: 18%;
+        background-color: #66b8df;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .main {
+        width: 60%;
+        padding: 3rem;
+        box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/LOGO.png" alt="Logo"> 
+            <h1>Mi Sitio Web</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="ejercicios 1-12 CSS.html">Ejercicios del 1-12</a></li>
+                    <li><a href="ejercicios 13-22 CSS.html">Ejercicios del 13-22</a></li>
+                    <li><a href="Ejercicios Formulario css.html">Ejercicio Formulario</a></li>
+                    <li><a href="Ejercicio div css.html">Ejercicios DIV</a></li>
+                    <li><a href="Ejercicios Tabla con CSS.html">Ejercicios de Tabla con CSS</a></li>
+                    <li><a href="Ejercicios Otros CSS.html">Otros Ejercicios</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h3>Sobre mí</h3>
+                <p>Mi nombre es Josías Misael Chacón Estrada, tengo 17 años, me gusta programar y cuando salga del
+                Bachillerato Técnico Profesional en Informática con orientación en Robótica quiero conseguir un buen trabajo.
+                Voy a estudiar en la Universidad Autónoma de Honduras (UNAH) para sacar la carrera de Ingeniería en Sistemas mientras
+                consigo experiencia laboral en la empresa que sea. Después de graduarme como ingeniero, buscaré
+                trabajo como desarrollador web o algo parecido.</p>
+                <p><strong>Mis Fortalezas</strong></p>
+                <ul>
+                    <li>Me gusta jugar videojuegos</li>
+                    <li>Soy muy buen programador</li>
+                    <li>Sé trabajar en equipo</li>
+                    <li>Soy autodidacta</li>
+                </ul>
+                <p><strong>Mis Debilidades</strong></p>
+                <ul>
+                    <li>No soy muy disciplinado</li>
+                    <li>Me cuesta enfocarme</li>
+                    <li>No hago tareas regularmente</li>
+                    <li>Soy algo perezoso</li>
+                </ul>
+                <h2>Gustos musicales</h2>
+                <p>Me gusta mucho la música del género Rock and Roll
+                y también la música antigua como la banda de Queen; me encantan sus
+                canciones. También me gusta José José por la letra de sus canciones.</p>
+                <a href="JosiasChacon7.html" title="Ir a...">Saber más</a>
+                <h2>Área de mi carrera</h2>
+                <p>Me gusta la carrera de robótica porque me interesa mucho el mundo de las computadoras y el mundo digital, en especial
+                me llama mucho la atención porque es muy innovadora y es algo nuevo que servirá en el futuro. Igual me gustan los robots por
+                las películas que miraba de pequeño y siempre quería crear mi propio robot.</p>
+                <a href="JosiasChacon10.html" title="Ir a...">Saber más</a>
+                <h3>Horarios de clase</h3>
+                <p>En este espacio utilicé la etiqueta para tablas y creé
+                mi horario de clases.<br>Jornada Matutina: 6:50-12:00</p>
+                <table border="1">
+                    <tr>
+                        <th>Horario</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <td>6:50-8:45</td><td>Robótica II</td><td>Diseño basado en Microcontroladores</td><td rowspan="2">Robótica II</td><td>Desarrollo Web</td><td>Diseño y fabricación digital</td>
+                    </tr>
+                    <tr>
+                        <td>8:45-9:20</td><td>Desarrollo Web</td><td>Producciones Digitales</td><td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>9:20-9:40</td><td colspan="5">Recreo</td>
+                    </tr>
+                    <tr>
+                        <td>9:40-11:00</td><td rowspan="2">Programación II</td><td rowspan="2">Producciones Digitales</td><td>Programación II</td><td>Desarrollo Web</td><td>Robótica</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:00</td><td>Desarrollo Web</td><td>Robótica II</td><td>Producciones Digitales</td>
+                    </tr>
+                </table>
+                <p>Horario de clases en la<br>
+                    Jornada Vespertina: 12:20-2:50</p>
+                <table border="1">
+                    <tr>
+                        <td>12:20-1:40</td><td rowspan="2">Redes Informáticas</td><td>Redes Informáticas</td><td rowspan="2">No hay clases</td><td rowspan="2">Mantenimiento y Reparación</td><td>Mantenimiento y Reparación</td>
+                    </tr>
+                    <tr>
+                        <td>1:40-2:50</td><td>Gestión Empresarial</td><td>Gestión Empresarial</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados Josías Misael Chacón Estrada &copy; 2025</p>
+        </div>
+    </div>
+</body>
+</html>

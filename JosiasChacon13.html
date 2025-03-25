@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F5DC;
+        }
+        .container {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+        }
+        img.center {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ejercicio</h1>
+        <table width="350" align="center" border="1">
+            <tr>
+                <th colspan="2">fila 1 celda 1y2(colspan)</th>
+                <th bgcolor="RED">fila 1 celda 3</th>
+            </tr>
+            <tr>
+                <td>fila 2 celda 1</td>
+                <td>fila 2 celda 2</td>
+                <td rowspan="2" valign="Bottom">fila 2 y 3(rowspan)</td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="yellow">
+                    <font face="arial" size="2">f2 cel 1</font>
+                </td>
+                <td>fila 2 celda 2</td>
+            </tr>
+        </table>
+        <img src="img/LOGO.png" alt="Descripción de la imagen" class="center">
+    </div>
+</body>
+</html>

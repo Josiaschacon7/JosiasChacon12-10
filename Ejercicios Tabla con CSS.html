@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Tablas con CSS</title>
+    <style>
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #66b8df;
+        box-sizing: border-box;
+    }
+    .header {
+        background-color: #66b8df;
+        padding: 20px;
+        border-style: dashed; 
+        border-color: #939696;
+        text-align: center;
+    }
+    .footer {
+        background-color: #66b8df;
+        padding: 20px;
+        border-style: dashed; 
+        border-color: #939696;
+        text-align: center;
+    }
+    .header h1 {
+        color: #000000;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+    .content {
+        display: flex;
+    }
+    .sidebar {
+        width: 20%;
+        background-color: #939696;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .main {
+        width: 100%;
+        padding: 3rem;
+        box-sizing: border-box;
+    }
+    iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/LOGO.png">
+            <h1>Mi Página Web Ejercicio Tabla CSS 29-38</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li><br>
+                    <li><a href="JosiasChacon15-CSS.html" target="EjerciciosTabCSS">Ejercicio 1</a></li><br>
+                    <li><a href="JosiasChacon16-CSS.html" target="EjerciciosTabCSS">Ejercicio 2</a></li><br>
+                    <li><a href="JosiasChacon17-CSS.html" target="EjerciciosTabCSS">Ejercicio 3</a></li><br>
+                    <li><a href="JosiasChacon18-CSS.html" target="EjerciciosTabCSS">Ejercicio 4</a></li><br>
+                    <li><a href="JosiasChacon19-CSS.html" target="EjerciciosTabCSS">Ejercicio 5</a></li><br>
+                    <li><a href="JosiasChacon20-CSS.html" target="EjerciciosTabCSS">Ejercicio 6</a></li><br>
+                    <li><a href="JosiasChacon21-CSS.html" target="EjerciciosTabCSS">Ejercicio 7</a></li><br>
+                    <li><a href="JosiasChacon22-CSS.html" target="EjerciciosTabCSS">Ejercicio 8</a></li><br>
+                    <li><a href="JosiasChacon23-CSS.html" target="EjerciciosTabCSS">Ejercicio 9</a></li><br>
+                    <li><a href="JosiasChacon24-CSS.html" target="EjerciciosTabCSS">Ejercicio 10</a></li><br>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Contenido Principal</h2>
+                <p>Bienvenido a mi página web. Aquí encontrarás información sobre los ejercicios de Tabla con CSS.</p>
+                <iframe name="EjerciciosTabCSS"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados Josias Misael Chacon Estrada &copy; 2025</p>
+        </div>
+    </div>
+</body>
+</html>
